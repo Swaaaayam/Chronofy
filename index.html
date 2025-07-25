@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronofy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="title">Chronofy</h1>
+  </header>
+  <hr class="full-line" />
+
+  <div class="clock-container">
+    <div class="clock">
+      <div class="center-dot"></div>
+      <div class="hand hour" id="hour"></div>
+      <div class="hand minute" id="minute"></div>
+      <div class="hand second" id="second"></div>
+      <div class="numbers" id="clockNumbers"></div>
+    </div>
+  </div>
+
+  <p class="tagline">Stay focused, one tick at a time</p>
+
+  <div class="timer-controls">
+    <input type="number" id="studyMinutes" placeholder="Minutes" />
+    <button onclick="startStudyTimer()">Start Study Timer</button>
+  </div>
+
+  <div class="timer-display" id="timerStatus">
+    🕰️ No timer running
+  </div>
+
+  <hr class="full-line" />
+  <footer>
+    <p>Made with ❤️ by SWAYAM</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
