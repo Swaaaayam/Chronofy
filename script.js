@@ -59,7 +59,7 @@ function startStudyTimer() {
     const remainSec = remain % 60;
 
     document.getElementById("timerStatus").innerHTML =
-      `✅ <span style="color:green;">Time Passed:</span> ${passedMin}m ${passedSec}s &nbsp; | ⏳ <span style="color:orange;">Remaining:</span> ${remainMin}m ${remainSec}s`;
+      `✅ <span style="color:green;">Time Passed:</span> ${passedMin}m ${passedSec}s &nbsp; | ⏳ <span style="color:red;">Remaining:</span> ${remainMin}m ${remainSec}s`;
 
     if (elapsedSeconds >= totalSeconds) {
       clearInterval(timerInterval);

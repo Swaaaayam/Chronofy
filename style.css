@@ -16,9 +16,9 @@ body {
 }
 
 header {
+  margin-bottom: 2rem;
   margin-top: 2rem;
   padding-bottom: 0.5rem;
-  
 }
 
 .title {
@@ -157,6 +157,7 @@ header {
 }
 
 footer {
+  margin-top: 2rem;
   padding-top: 1rem;
   font-size: 1rem;
   color: black;
